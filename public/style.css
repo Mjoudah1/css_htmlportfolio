@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    min-height: 100vh;
+    width: 100%;
+    padding: 78px 0px;
+   background:#081b29;
+
+}
+.about img{
+
+border: 2px solid #ededed ;
+height: 350px;
+width: 350px;
+box-shadow: 0 0 5px #ededed,
+            0 0 25px #ededed;
+border-radius: 5em;
+transition: 0.5s ease;
+}
+.main{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+} 
+.about-text h5{
+    color: white;
+    font-size: 28px;
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+
+} 
+span{
+    color: #ededed;
+}
+.about-text p {
+    color: #ededed;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 45px;
+
+}
+.about h2{
+    color: #ededed;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 19px;
+    margin-bottom: 20px;
+
+}
+ul{
+    color: #ededed;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-size: 15px;
+    
+}
